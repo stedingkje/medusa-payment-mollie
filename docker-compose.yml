@@ -23,7 +23,7 @@ services:
       - node_modules:/app/medusa/node_modules
 
   postgres:
-    image: postgres:10.4
+    image: postgres:16.4
     ports:
       - "5432:5432"
     environment:
